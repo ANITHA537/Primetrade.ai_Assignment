@@ -23,6 +23,7 @@ The directory contains exactly the deliverables requested:
 
 ### Prerequisites
 You will need **Python 3.8+** installed.
+You also need to ensure the 2 datasets are available in dataserts folder, to ruin the code.I am unable to attach history_data.csv becuase of its huge size.
 
 ### 1. Install Dependencies
 Install the required packages utilizing pip from the command line:
@@ -43,3 +44,4 @@ The Streamlit app dynamically loads the metrics and charts created by the notebo
 python -m streamlit run app.py
 ```
 This spawns a local web server (typically `http://localhost:8501`) mapping the distributions of trader clusters, predicting their capability, and showing market sentiment correlations beautifully.
+
